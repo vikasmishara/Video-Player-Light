@@ -1,0 +1,834 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeLightBasic0" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_dark</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_dark</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_dark</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_dark</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic1" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_black</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_black</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_black</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_black</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic2" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_blue_grey</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_blue_grey</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_blue_grey</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_blue_grey</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic3" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_white</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_white</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_white</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_white</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic4" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_orange</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_orange</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_orange</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_orange</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic5" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_amber</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_amber</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_amber</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_amber</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic6" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_yellow</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_yellow</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_yellow</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_yellow</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic7" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_lime</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_lime</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_lime</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_lime</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic8" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_light_green</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_light_green</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_light_green</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_light_green</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+
+    </style>
+    <style name="AppThemeLightBasic9" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_dark_green</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_dark_green</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_dark_green</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_dark_green</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+    <style name="AppThemeLightBasic10" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_blue</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_blue</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_blue</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_blue</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+    <style name="AppThemeLightBasic11" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_indigo</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_indigo</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_indigo</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_indigo</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+    <style name="AppThemeLightBasic12" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/deep_purple</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/deep_purple</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/deep_purple</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/deep_purple</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic13" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_pink</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_pink</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_pink</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_pink</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+    <style name="AppThemeLightBasic14" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_pink1</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_pink1</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_pink1</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_pink1</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic15" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_pink2</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_pink2</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_pink2</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_pink2</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic16" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_red</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_red</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_red</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_red</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic17" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/red</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/red</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/red</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/red</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic18" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_pink3</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_pink3</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_pink3</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_pink3</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+    <style name="AppThemeLightBasic19" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_green1</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_green1</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_green1</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_green1</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+
+    <style name="AppThemeLightBasic20" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_purple</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_purple</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_purple</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_purple</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+
+    </style>
+
+
+
+
+
+    <style name="AppThemeDarkBasic" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/nice_green</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/black</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/white70</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white70</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize1</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/black0</item>
+>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">22sp</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:colorControlActivated">#c51162</item>
+    </style>
+
+
+    <style name="AppThemeForNowPlaying" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="colorSwitchThumbNormal">@color/dark</item>
+        <!-- Inactive track color(30% transparency) -->
+        <item name="android:colorForeground">@color/dark</item>
+
+        <!--override text color here-->
+        <item name="android:textColorPrimary">@color/black1</item>
+
+        <!-- Customize your theme here. -->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/nice_green</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/nice_green</item>
+        <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+        <item name="colorAccent">@color/nice_green</item>
+
+        <!--the color of app bar, button,...-->
+        <item name="accent_color">@color/nice_green</item>
+        <!--the color of text view, text box-->
+        <item name="text_color">@color/colorPrimaryDark</item>
+        <!--the opposite color if text-->
+        <item name="them_color_opp">@color/white</item>
+        <!--button customize color if possible-->
+        <item name="background_customize">@color/bg_customize</item>
+        <!--override default background color of theme-->
+        <item name="background_color">@color/white</item>
+    </style>
+
+    <!-- Dialog -->
+
+
+    <style name="MyDialogFadeAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

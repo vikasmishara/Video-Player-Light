@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="license_dialog_style" translatable="false">
+        body {
+            background-color: #{bg-color};
+            color: #{text-color};
+            font-family: sans-serif;
+            overflow-wrap: break-word;
+        }
+        pre {
+            background-color: #{license-bg-color};
+            padding: 1em;
+            white-space: pre-wrap;
+        }
+    </string>
+</resources>

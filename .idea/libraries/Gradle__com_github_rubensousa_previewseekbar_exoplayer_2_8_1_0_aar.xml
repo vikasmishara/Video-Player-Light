@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rubensousa:previewseekbar-exoplayer:2.8.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/previewseekbar-exoplayer-2.8.1.0.aar/fc14b66f7b3fd7ada6e3f0ac9a12c8e1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/previewseekbar-exoplayer-2.8.1.0.aar/fc14b66f7b3fd7ada6e3f0ac9a12c8e1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rubensousa/previewseekbar-exoplayer/2.8.1.0/83288fe9bf0da1cd7b89f55a3fd2605c51da4dbb/previewseekbar-exoplayer-2.8.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
